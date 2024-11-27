@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(../global/css/shine.css);
+/* @import url(../global/css/blink.css); */
+
+:root {
+    --bg: #f5f5f5;
+    --table-bg: #ffffff;
+    --border: #000000;
+    --thead-bg: #464d58;
+    --thead-text-color: #ffffff;
+    --border-bottom-color: #b0abab;
+    --element-bg: #bfbfbf;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--table-bg);
+    border: 1px solid var(--border);
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: var(--thead-bg);
+    color: var(--thead-text-color);
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+th, td {
+    padding: 20px;
+}
+
+tr {
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+
+.bar {
+    width: 80%;
+    height: 14px;
+    background-color: var(--element-bg);
+    border-radius: 5px;
+}
