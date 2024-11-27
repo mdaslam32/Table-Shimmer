@@ -1,0 +1,48 @@
+.shine {
+    -webkit-animation: shining 3s linear 0s infinite normal forwards;
+    -moz-animation: shining 3s linear 0s infinite normal forwards;
+    -o-animation: shining 3s linear 0s infinite normal forwards;
+    animation: shining 3s linear 0s infinite normal forwards;
+    background: linear-gradient(to right, #e4e4e4 8%, #dfdfdf 18%, #c4c4c4 33%);
+    background-size: 500px;
+}
+
+@-webkit-keyframes shining {
+    0%{
+        background-position: -1000px 0;
+    }
+
+    100%{
+        background-position: 1000px 0;
+    }
+}
+
+@-moz-keyframes shining {
+    0%{
+        background-position: -1000px 0;
+    }
+
+    100%{
+        background-position: 1000px 0;
+    }
+}
+
+@-o-keyframes shining {
+    0%{
+        background-position: -1000px 0;
+    }
+
+    100%{
+        background-position: 1000px 0;
+    }
+}
+
+@keyframes shining {
+    0%{
+        background-position: -1000px 0;
+    }
+
+    100%{
+        background-position: 1000px 0;
+    }
+}
